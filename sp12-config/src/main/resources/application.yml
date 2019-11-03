@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: config-server
+    
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/odyan520/sp-config.git
+          searchPaths: config     
+#          username: 934639096@qq.com 私有库需要账号密码
+#          password: oudiyan123
+          
+server:
+  port: 6001
+  
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka
