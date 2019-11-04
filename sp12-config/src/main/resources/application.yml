@@ -7,7 +7,7 @@ spring:
       server:
         git:
           uri: https://github.com/odyan520/sp-config.git
-          searchPaths: config     
+          searchPaths: config
 #          username: 934639096@qq.com 私有库需要账号密码
 #          password: oudiyan123
           
